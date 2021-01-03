@@ -28,7 +28,7 @@ function childpages_shortcode_callback() {
 	);
 
 	if ( $pages ) {
-			$result = '<ul class="ima-pagelist imaa-pagelist-children">' . $pages . '</ul>';
+			$result = '<ul class="ima-pagelist ima-pagelist-children">' . $pages . '</ul>';
 	}
 
 	return $result;
